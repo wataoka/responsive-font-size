@@ -17,46 +17,110 @@ html {
 }
 
 body {
-
-    font-size: 2.0rem; 
-
-    @media screen and (min-width: 0px) and (max-width: $iphone5se-width) {
-        font-size: 2.0rem;
-    }
-    @media screen and (min-width: $iphone5se-width+1px) and (max-width: $iphone678-width) {
-        font-size: 2.0rem;
-    }
-    @media screen and (min-width: $iphone678-width+1px) and (max-width: $iphone678p-width) {
-        font-size: 2.4rem;
-    }
-    @media screen and (min-width: $iphone678p-width+1px) and (max-width: $ipad-width) {
-        font-size: 2.4rem;
-    }
-    @media screen and (min-width: $ipad-width+1px) and (max-width: $ipadpro-width) {
-        font-size: 2.2rem;
-    }
-    @media screen and (min-width: $iphonex-width) and (max-width: $iphonex-width) and (min-height: $iphonex-height) and (max-height: $iphonex-height) {
-        font-size: 2.4rem;
-    }
+    font-size: 1.4rem;
 }
 
 h1 {
     @media screen and (min-width: 0px) and (max-width: $iphone5se-width) {
-        font-size: 2.0rem;
+        font-size: 3.0rem;
     }
     @media screen and (min-width: $iphone5se-width+1px) and (max-width: $iphone678-width) {
-        font-size: 2.0rem;
+        font-size: 3.0rem;
     }
     @media screen and (min-width: $iphone678-width+1px) and (max-width: $iphone678p-width) {
-        font-size: 2.4rem;
+        font-size: 3.0rem;
+    }
+    @media screen and (min-width: $iphone678p-width+1px) and (max-width: $ipad-width) {
+        font-size: 4.0rem;
+    }
+    @media screen and (min-width: $ipad-width+1px) and (max-width: $ipadpro-width) {
+        font-size: 4.0rem;
+    }
+    @media screen and (min-width: $ipadpro-width+1px){
+        font-size: 4.0rem;
+    }
+}
+
+h2 {
+    @media screen and (min-width: 0px) and (max-width: $iphone5se-width) {
+        font-size: 2.8rem;
+    }
+    @media screen and (min-width: $iphone5se-width+1px) and (max-width: $iphone678-width) {
+        font-size: 2.8rem;
+    }
+    @media screen and (min-width: $iphone678-width+1px) and (max-width: $iphone678p-width) {
+        font-size: 2.8rem;
     }
     @media screen and (min-width: $iphone678p-width+1px) and (max-width: $ipad-width) {
         font-size: 3.2rem;
     }
     @media screen and (min-width: $ipad-width+1px) and (max-width: $ipadpro-width) {
-        font-size: 4.0rem;
+        font-size: 3.2rem;
     }
-    @media screen and (min-width: $iphonex-width) and (max-width: $iphonex-width) and (min-height: $iphonex-height) and (max-height: $iphonex-height) {
+    @media screen and (min-width: $ipadpro-width+1px){
+        font-size: 3.2rem;
+    }
+}
+
+h3 {
+    @media screen and (min-width: 0px) and (max-width: $iphone5se-width) {
         font-size: 2.4rem;
+    }
+    @media screen and (min-width: $iphone5se-width+1px) and (max-width: $iphone678-width) {
+        font-size: 2.4rem;
+    }
+    @media screen and (min-width: $iphone678-width+1px) and (max-width: $iphone678p-width) {
+        font-size: 2.4rem;
+    }
+    @media screen and (min-width: $iphone678p-width+1px) and (max-width: $ipad-width) {
+        font-size: 2.8rem;
+    }
+    @media screen and (min-width: $ipad-width+1px) and (max-width: $ipadpro-width) {
+        font-size: 2.8rem;
+    }
+    @media screen and (min-width: $ipadpro-width+1px){
+        font-size: 2.8rem;
+    }
+}
+
+h4 {
+    @media screen and (min-width: 0px) and (max-width: $iphone5se-width) {
+        font-size: 2.0rem;
+    }
+    @media screen and (min-width: $iphone5se-width+1px) and (max-width: $iphone678-width) {
+        font-size: 2.0rem;
+    }
+    @media screen and (min-width: $iphone678-width+1px) and (max-width: $iphone678p-width) {
+        font-size: 2.0rem;
+    }
+    @media screen and (min-width: $iphone678p-width+1px) and (max-width: $ipad-width) {
+        font-size: 2.4rem;
+    }
+    @media screen and (min-width: $ipad-width+1px) and (max-width: $ipadpro-width) {
+        font-size: 2.4rem;
+    }
+    @media screen and (min-width: $ipadpro-width+1px){
+        font-size: 2.4rem;
+    }
+}
+
+h5 {
+    @media screen and (min-width: 0px) and (max-width: $iphone5se-width) {
+        font-size: 1.6rem;
+    }
+    @media screen and (min-width: $iphone5se-width+1px) and (max-width: $iphone678-width) {
+        font-size: 1.6rem;
+    }
+    @media screen and (min-width: $iphone678-width+1px) and (max-width: $iphone678p-width) {
+        font-size: 1.6rem;
+    }
+    @media screen and (min-width: $iphone678p-width+1px) and (max-width: $ipad-width) {
+        font-size: 2.0rem;
+    }
+    @media screen and (min-width: $ipad-width+1px) and (max-width: $ipadpro-width) {
+        font-size: 2.0rem;
+    }
+    @media screen and (min-width: $ipadpro-width+1px){
+        font-size: 2.0rem;
     }
 }
